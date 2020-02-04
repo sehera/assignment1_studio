@@ -1,0 +1,957 @@
+body{
+background-color: #F1EEE3;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+body:hover{
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, wheat 1.5px, transparent 1.5px),
+    linear-gradient(to bottom, wheat 1.5px, transparent 1.5px);
+}
+
+.text{
+  position:relative;
+  width: 1500px;
+ height: 1000px;
+}
+
+
+
+.one{
+  font-size:18px;
+  font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position: absolute;
+    left:6%;
+    top:3.3%;
+}
+
+.one:hover{
+background-color: black;
+margin: auto;
+}
+
+
+.two{
+  font-size:18px;
+  font-family: "Optima", sans-serif;
+  font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:12%;
+}
+
+.two:hover{
+background-color: black;
+margin: auto;
+}
+
+.three{
+  font-size:18px;
+  font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:67%;
+    top:11.9%;
+}
+
+.three:hover{
+background-color: black;
+margin: auto;
+}
+
+.four{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+font-style: italic;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:33%;
+    top:15.9%;
+}
+
+.four:hover{
+background-color: black;
+margin: auto;
+}
+
+.five{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:23.9%;
+    margin:auto;
+}
+
+.five:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+.six{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:44.3%;
+    top:23.9%;
+    margin: auto;
+}
+
+.six:hover{
+background-color: black;
+margin: auto;
+}
+
+.six2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:27.9%;
+    margin: 0px auto;
+}
+
+.six2:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+.seven{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:35.4%;
+    margin: 0px auto;
+}
+
+.seven:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+.eight{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:39.7%;
+    margin: 0px auto;
+}
+
+.eight:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+.nine{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:47.8%;
+    margin: 0px auto;
+}
+
+.nine:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+
+.ten{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:51.7%;
+    margin: 0px auto;
+}
+
+.ten:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+.eleven{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:59.7%;
+    margin: 0px auto;
+}
+
+.eleven:hover{
+background-color: black;
+margin: 0px auto;
+}
+
+.eleven2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:37%;
+    top:63.8%;
+    margin: 0px auto;
+}
+
+.eleven2:hover{
+background-color: black;
+}
+
+.twelve{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:51.8%;
+    top:63.7%;
+    margin: 0px auto;
+}
+
+.twelve:hover{
+background-color: black;
+}
+
+
+
+.thirteen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:71.8%;
+    margin: 0px auto;
+}
+
+.thirteen:hover{
+background-color: black;
+}
+
+.thirteen2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:75.7%;
+    margin: 0px auto;
+}
+
+.thirteen2:hover{
+background-color: black;
+}
+
+.fourteen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:36.6%;
+    top:75.6%;
+    margin: 0px auto;
+}
+
+.fourteen:hover{
+background-color: black;
+}
+
+
+.fifteen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:83.7%;
+    margin: 0px auto;
+}
+
+.fifteen:hover{
+background-color: black;
+}
+
+.fifteen2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:87.4%;
+    margin: 0px auto;
+}
+
+.fifteen2:hover{
+background-color: black;
+}
+
+
+/* -NEW TEXT SECTION */
+
+.text2{
+  position:relative;
+  width: 1500px;
+ height: 1000px;
+
+}
+
+
+.sixteen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:3.2%;
+    margin: 0px auto;
+}
+
+.sixteen:hover{
+background-color: black;
+}
+
+.seventeen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:32.7%;
+    top:3.2%;
+    margin: 0px auto;
+}
+
+.seventeen:hover{
+background-color: black;
+}
+
+.eighteen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:11.7%;
+    margin: 0px auto;
+}
+
+.eighteen:hover{
+background-color: black;
+}
+
+.eighteen2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:15.3%;
+    margin: 0px auto;
+}
+
+.eighteen2:hover{
+background-color: black;
+}
+
+
+.nineteen{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:23.9%;
+    margin: 0px auto;
+}
+
+.nineteen:hover{
+background-color: black;
+}
+
+.nineteen2{
+  font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:27.7%;
+    margin: 0px auto;
+}
+
+.nineteen2:hover{
+background-color: black;
+}
+
+.twenty{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:24.9%;
+    top:27.6%;
+    margin: 0px auto;
+}
+
+.twenty:hover{
+background-color: black;
+
+}
+
+.twentyone{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:35.4%;
+    margin: 0px auto;
+}
+
+.twentyone:hover{
+background-color: black;
+
+}
+
+.twentyone2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:39.9%;
+    margin: 0px auto;
+}
+
+.twentyone2:hover{
+background-color: black;}
+
+
+
+
+.twentytwo{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:47.3%;
+}
+
+.twentytwo:hover{
+background-color: black;
+}
+
+.twentythree{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:55.3%;
+}
+
+.twentythree:hover{
+background-color: black;
+
+}
+
+.twentyfour{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:70.3%;
+    top:55.3%;
+}
+
+.twentyfour:hover{
+background-color: black;
+}
+
+.twentyfour2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:59.7%;
+}
+
+.twentyfour2:hover{
+background-color: black;
+}
+
+.twentyfive{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:67.8%;
+}
+
+.twentyfive:hover{
+background-color: black;
+}
+
+.twentysix{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:71.8%;
+}
+
+.twentysix:hover{
+background-color: black;
+}
+
+.twentyseven{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:79.7%;
+}
+
+.twentyseven:hover{
+background-color: black;
+}
+
+.twentyeight{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:72.2%;
+    top:79.7%;
+}
+
+.twentyeight:hover{
+background-color: black;
+}
+
+.twentyeight2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:83.7%;
+}
+
+.twentyeight2:hover{
+background-color: black;
+}
+
+.twentynine{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:91.7%;
+}
+
+.twentynine:hover{
+background-color: black;
+}
+
+.thirty{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:95.7%;
+}
+
+.thirty:hover{
+background-color: black;
+}
+
+.thirtyone{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:33.7%;
+    top:95.7%;
+}
+
+.thirtyone:hover{
+background-color: black;
+}
+
+/* -NEW TEXT SECTION */
+
+
+.text3{
+  position:relative;
+  width: 1500px;
+ height: 1000px;
+}
+
+
+.thirtytwo{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:12%;
+}
+
+.thirtytwo:hover{
+background-color: black;
+}
+
+.thirtythree{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:15.4%;
+}
+
+.thirtythree:hover{
+background-color: black;
+}
+
+
+.thirtyfour{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:23.8%;
+}
+
+.thirtyfour:hover{
+background-color: black;
+}
+
+.thirtyfive{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:27.4%;
+}
+
+.thirtyfive:hover{
+background-color: black;
+}
+
+.thirtysix{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:35.4%;
+}
+
+.thirtysix:hover{
+background-color: black;
+}
+
+.thirtysix2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:39.8%;
+}
+
+.thirtysix2:hover{
+background-color: black;
+}
+
+.thirtyseven{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:47.4%;
+}
+
+.thirtyseven:hover{
+background-color: black;
+}
+
+.thirtyeight{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:22.9%;
+    top:47.4%;
+}
+
+.thirtyeight:hover{
+background-color: black;
+}
+
+.thirtyseven2{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:51.7%;
+}
+
+.thirtyseven2:hover{
+background-color: black;
+}
+
+.thirtynine{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:59.4%;
+}
+
+.thirtynine:hover{
+background-color: black;
+}
+
+.fourty{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:67.3%;
+}
+
+.fourty:hover{
+background-color: black;
+}
+
+.fourtyone{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:6%;
+    top:71.7%;
+}
+
+.fourtyone:hover{
+background-color: black;
+}
+
+.fourtytwo{
+    font-size:18px;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    position:absolute;
+    left:40%;
+    top:79.3%;
+}
+
+.fourtytwo:hover{
+background-color: black;
+}
+
+.text4{
+  position:relative;
+  width: 1500px;
+ height: 1000px;
+}
+
+.credits{
+  color: black;
+  font-size:12px;
+  font-family: "Akzidenz-Grotesk", sans-serif;
+  font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.08em;
+    line-height: 2em;
+    position: absolute;
+    left: 2%;
+    top:10%;
+    z-index: 2;
+}
+
+.idea{
+  color: black;
+  font-size:12px;
+  font-family: "Akzidenz-Grotesk", sans-serif;
+  font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.08em;
+    line-height: 2em;
+    position: absolute;
+    left: 2%;
+    top:30%;
+    z-index: 2;
+}
